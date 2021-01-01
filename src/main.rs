@@ -168,6 +168,7 @@ fn compose_message(events: Vec<Event>, local: String) -> String {
 #[tokio::main]
 async fn main() -> Result<(), ExitFailure> {
     let response = EventList::get().await?;
+
     let message = compose_message(response.events, Local::now().to_string());
     let access_token = format!(r#"{}"#, env::var("ACCESS_TOKEN").unwrap());
     let messaging_type = format!(r#"{}"#, "UPDATE");
@@ -181,7 +182,6 @@ async fn main() -> Result<(), ExitFailure> {
         ("recipient", &recipient_object),
         ("message", &message),
     ];
-
 
     let utc_now = chrono::offset::Utc::now().to_string();
     if in_time_range(utc_now.as_str(), String::from("6"), 25, 35) {
