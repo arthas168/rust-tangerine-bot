@@ -148,9 +148,9 @@ dependencies = [
 
 [[package]]
 name = "fb_messenger"
-version = "0.1.12"
+version = "0.1.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8d85823f3fd9bb900ec4dd026493ef69df2be043cc18db1929a46553cec2d2ec"
+checksum = "58ca5ce8baf259b1e66e458829a65904dde98f11976a390ee170ac89e0f45be6"
 dependencies = [
  "reqwest",
 ]
