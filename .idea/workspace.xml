@@ -31,13 +31,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6872658a-4cf9-4a35-9170-a60cc125a0ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/compose_message.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/event_list.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +110,7 @@
       <workItem from="1609317353495" duration="1550000" />
       <workItem from="1609502139289" duration="12345000" />
       <workItem from="1609577011031" duration="242000" />
-      <workItem from="1609578137682" duration="9985000" />
+      <workItem from="1609578137682" duration="11542000" />
     </task>
     <servers />
   </component>
