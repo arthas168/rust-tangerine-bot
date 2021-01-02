@@ -147,6 +147,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "fb_messenger"
+version = "0.1.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a1765274427abcfa89c94d95fffcd57622b84ac53bde1b88bda45818c583b595"
+dependencies = [
+ "reqwest",
+]
+
+[[package]]
 name = "fnv"
 version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -827,6 +836,7 @@ version = "0.1.0"
 dependencies = [
  "chrono",
  "exitfailure",
+ "fb_messenger",
  "reqwest",
  "serde",
  "serde_derive",

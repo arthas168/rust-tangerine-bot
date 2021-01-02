@@ -31,7 +31,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6872658a-4cf9-4a35-9170-a60cc125a0ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/compose_message.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/event_list.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +46,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fb_messenger" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,7 +113,9 @@
       <workItem from="1609264695925" duration="1810000" />
       <workItem from="1609316168687" duration="157000" />
       <workItem from="1609317353495" duration="1550000" />
-      <workItem from="1609502139289" duration="12206000" />
+      <workItem from="1609502139289" duration="12345000" />
+      <workItem from="1609577011031" duration="242000" />
+      <workItem from="1609578137682" duration="9985000" />
     </task>
     <servers />
   </component>
@@ -118,6 +132,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="97" width="1169" height="826" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609163053130">
@@ -128,10 +143,10 @@
       <screen x="1920" y="0" width="3840" height="2160" />
     </state>
     <state x="3513" y="802" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.3840.2160/0.406.1920.1080@1920.0.3840.2160" timestamp="1609515213860" />
-    <state x="3575" y="732" key="FileChooserDialogImpl" timestamp="1609510739722">
+    <state x="3575" y="732" width="530" height="605" key="FileChooserDialogImpl" timestamp="1609578177342">
       <screen x="1920" y="0" width="3840" height="2160" />
     </state>
-    <state x="3575" y="732" key="FileChooserDialogImpl/1920.0.3840.2160/0.406.1920.1080@1920.0.3840.2160" timestamp="1609510739722" />
+    <state x="3575" y="732" width="530" height="605" key="FileChooserDialogImpl/1920.0.3840.2160/0.406.1920.1080@1920.0.3840.2160" timestamp="1609578177342" />
     <state x="2578" y="114" width="1271" height="912" key="SettingsEditor" timestamp="1609502311168">
       <screen x="1920" y="0" width="3840" height="2160" />
     </state>
@@ -141,9 +156,9 @@
       <screen x="1920" y="0" width="3840" height="2160" />
     </state>
     <state x="3458" y="493" width="764" height="1083" key="find.popup/1920.0.3840.2160/0.406.1920.1080@1920.0.3840.2160" timestamp="1609512096985" />
-    <state x="4292" y="489" key="run.anything.popup" timestamp="1609510050850">
+    <state x="4292" y="489" key="run.anything.popup" timestamp="1609597882663">
       <screen x="1920" y="0" width="3840" height="2160" />
     </state>
-    <state x="4292" y="489" key="run.anything.popup/1920.0.3840.2160/0.406.1920.1080@1920.0.3840.2160" timestamp="1609510050850" />
+    <state x="4292" y="489" key="run.anything.popup/1920.0.3840.2160/0.406.1920.1080@1920.0.3840.2160" timestamp="1609597882663" />
   </component>
 </project>
