@@ -6,6 +6,8 @@ pub fn new(events: Vec<event_list::Event>, local: String) -> String {
     let message_prefix = r#"{"text":""#;
     let message_suffix = r#""}"#;
 
+    print!("{:?}", events);
+
     let mut message = String::from("Добро утро! ☀ 💕");
     message = format!(
         "{}{} Днес ({}) има {} събити{}:\\n",
